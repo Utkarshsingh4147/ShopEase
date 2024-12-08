@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ShopEase</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="combo.html">Combo</a></li>
+                <li><a href="electrical.html">Electrical</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cart.html" id="cart-link" class="cart-button">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="help-section">
+            <h2>Help & Support</h2>
+            <p style="text-align: center; color: #555; margin-bottom: 2rem;">
+                Need assistance? Browse our FAQs or contact us directly.
+            </p>
+            
+            <div class="faq">
+                <h3>Frequently Asked Questions</h3>
+                <ul>
+                    <li><strong>Q: How do I place an order?</strong><br>
+                        A: Browse our products, add your chosen items to the cart, and proceed to checkout.
+                    </li>
+                    <li><strong>Q: What payment methods are accepted?</strong><br>
+                        A: We accept all major credit/debit cards, PayPal, and digital wallets.
+                    </li>
+                    <li><strong>Q: Can I return a product?</strong><br>
+                        A: Yes, products can be returned within 30 days of purchase. Please read our return policy for more details.
+                    </li>
+                    <li><strong>Q: How can I track my order?</strong><br>
+                        A: Once your order is shipped, we will send you a tracking link via email.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ShopEase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
